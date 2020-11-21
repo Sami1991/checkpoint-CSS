@@ -1,0 +1,39 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: url("acceuil.jpg");  
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+/* mise en forme du grand titre */
+.nom{
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+h1{
+  color: #183d0d;
+  font-family: 'Times New Roman', Times, serif;
+}
+.corp::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colonne{
+  background-color: rgb(204, 204, 204);
+  color: black;
+  float: left;
+  width: 31%;
+  padding: 15px;
+  }
+  .basdepage{
+    background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+  }
+  input{
+    background-color:#e1f7e8;
+  }

@@ -1,0 +1,49 @@
+html {
+    scroll-behavior: smooth;
+  }
+  .titre{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+   border-style: groove; /* bordure*/
+   border: 2px solid rgb(37, 92, 23);
+    border-radius: 25px;  
+    border-width: 5px;
+    font-size: 27px;
+    background: url("form.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    text-align: center;
+
+  }
+  .grandtable{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+   border-style: groove; /* bordure*/
+   border: 2px solid rgb(37, 92, 23);
+    border-radius: 500px;  
+    border-width: 5px;
+    background: url("form.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+  .formulaire{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+   border-style: groove; /* bordure*/
+   border: 2px solid rgb(37, 92, 23);
+    border-radius: 25px;  
+    border-width: 5px;
+    font-size: 20px;
+  }
+  input{
+    background-color:#e1f7e8;
+  }
+  
